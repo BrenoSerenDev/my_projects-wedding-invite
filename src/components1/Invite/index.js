@@ -1,8 +1,5 @@
-import React, {useRef, useState} from 'react';
-import {StyleSheet, SafeAreaView, Dimensions, PanResponder,View} from 'react-native';
+import {StyleSheet, Dimensions, PanResponder,View} from 'react-native';
 import Animated from 'react-native-reanimated';
-import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
-
 
 import LogoPage from './LogoPage'
 import NamesPage from './NamesPage'

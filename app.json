@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Convite Casamento",
-    "slug": "Convite Casamento",
+    "slug": "Convite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,7 +29,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "a99fa983-2a83-4060-b6cb-04e617a3850d"
+        "projectId": "d24628ef-f5d6-488b-bfa2-8545c337ff9d"
       }
     }
   }
