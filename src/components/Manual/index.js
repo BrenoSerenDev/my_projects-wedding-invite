@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {StyleSheet, View, Dimensions, Animated, StatusBar} from 'react-native';
+import {StyleSheet, Dimensions, Animated, StatusBar} from 'react-native';
 import TitlePage from './TitlePage'
 import OurDayPage from './OurDayPage'
 import GodmotherPage from './GodmotherPage'
@@ -10,21 +10,19 @@ import normalize from '../../widgets/Fonts/Normalize';
 export default function Main(){
   
   return(
-    <View>
-        <StatusBar barStyle='dark-content' translucent={true} backgroundColor={'transparent'}/>
         <Animated.ScrollView 
           pagingEnabled={true}
           showsHorizontalScrollIndicator={false}
           removeClippedSubviews={true}
           horizontal={true}
           style={stylesheet.content}>
-          <TitlePage />
-          <OurDayPage />
-          <GodmotherPage />
-          <GroomsmenPage />
-          <GreatDayPage />
+            <StatusBar barStyle='dark-content' translucent={true} backgroundColor={'transparent'}/>
+            <TitlePage />
+            <OurDayPage />
+            <GodmotherPage />
+            <GroomsmenPage />
+            <GreatDayPage />
         </Animated.ScrollView>
-      </View>
   )
 }
 const stylesheet = StyleSheet.create({

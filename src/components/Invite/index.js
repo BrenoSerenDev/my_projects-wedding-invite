@@ -12,9 +12,7 @@ export default function Main({navigation}){
         <Animated.ScrollView 
         showsVerticalScrollIndicator={false}
         removeClippedSubviews={true}
-        style={stylesheet.content}
-        fullScreen={true}
-        >
+        style={stylesheet.content}>
             <StatusBar barStyle='dark-content' translucent={true} backgroundColor={'transparent'}/>
             <LogoPage/>
             <NamesPage/>
