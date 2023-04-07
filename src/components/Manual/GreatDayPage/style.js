@@ -13,7 +13,7 @@ const stylesheet = StyleSheet.create({
     textAlign:'center',
     fontSize:normalize(55),
     marginTop: normalize(50),
-    marginBottom:normalize(50)
+    marginBottom:normalize(50),
   },
   defaultBox: {
   flex:1,
@@ -46,7 +46,7 @@ const stylesheet = StyleSheet.create({
     flexShrink: 1,
     fontFamily:'Gracialind-Bold',
     color:'#C68420',
-    fontSize:normalize(16)
+    fontSize:normalize(16),
   },
   
 });

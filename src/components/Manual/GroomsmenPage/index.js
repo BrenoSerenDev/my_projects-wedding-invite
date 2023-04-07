@@ -9,12 +9,12 @@ export default function Main(){
       <View style={main_stylesheet.content}>
         <View style={main_stylesheet.frame}>
           <View style={stylesheet.instructions}>
-          <Text style={stylesheet.TitleText}>Para o Padrinho</Text>
-            <Text style={stylesheet.instructionsText}>Para que nosso dia fique ainda mais lindo e você mais elegante, escolhemos padronizar os trajes dos padrinhos.
-Portanto, gostaríamos que você usasse <Text style={{fontFamily:'Gracialind-Bold'}}>camisa branca, terno cinza e a gravata no mesmo tom do vestido da madrinha.</Text></Text>
+          <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para o Padrinho</Text>
+            <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Para que nosso dia fique ainda mais lindo e você mais elegante, escolhemos padronizar os trajes dos padrinhos.
+Portanto, gostaríamos que você usasse <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>camisa branca, terno cinza e a gravata no mesmo tom do vestido da madrinha.</Text></Text>
           </View>
           <View style={stylesheet.colorPallete}>
-            <Text style={stylesheet.colorsTitleText}>Padrinhos de Cinza</Text>
+            <Text allowFontScaling={false}  style={stylesheet.colorsTitleText}>Padrinhos de Cinza</Text>
             <View style ={stylesheet.colorBoxBorder1}>
               <View style={stylesheet.colorBoxBorder2}>
                 <View style={stylesheet.colorBoxColor1}>

@@ -8,7 +8,7 @@ export default function Main(){
   return(
       <View style={main_stylesheet.content}>
         <View style={main_stylesheet.frame}>
-          <Text style={stylesheet.manualTitle}>
+          <Text style={stylesheet.manualTitle} allowFontScaling={false}>
             <Text style={stylesheet.topText} {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Manual{'\n'}</Text>
             <Text style={stylesheet.middleText} {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>dos{'\n'}</Text>
             <Text style={stylesheet.bottomText}  {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Padrinhos</Text>

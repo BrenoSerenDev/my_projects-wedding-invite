@@ -19,8 +19,8 @@ const [fontsLoaded] = useFonts({
   }
   
   return (
-    <NavigationContainer>
-      <Stack/>
-    </NavigationContainer>
+      <NavigationContainer>
+        <Stack/>
+      </NavigationContainer>
   );
   }

@@ -21,8 +21,8 @@ export default function Title(){
         <TouchableOpacity 
         onPress = {redirect_to_maps} 
         style = {defaultStylesheet.buttonSubtitleView}>
-          <Text style = {stylesheet.buttonSubtitleText}>Localização:</Text>
-          <Text style = {stylesheet.buttonSubtitleText}>Chácara Gouveia</Text>
+          <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>Localização:</Text>
+          <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>Chácara Gouveia</Text>
         </TouchableOpacity>
       </View>
   )

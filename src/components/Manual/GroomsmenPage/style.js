@@ -9,7 +9,7 @@ const stylesheet = StyleSheet.create({
     color:'#C68420',
     textAlign:'center',
     fontSize:normalize(60),
-    marginTop: normalize(100)
+    marginTop: normalize(100),
   },
   instructionsText: {
     fontFamily:'Gracialind',
@@ -17,7 +17,7 @@ const stylesheet = StyleSheet.create({
     textAlign:'center',
     fontSize:normalize(18),
     marginTop:normalize(10),
-    marginHorizontal:normalize(10)
+    marginHorizontal:normalize(10),
   },
   colorPallete: {
     flex: 1,

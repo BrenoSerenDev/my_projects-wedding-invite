@@ -14,10 +14,10 @@ export default function Title(props){
         </TouchableOpacity>
         <TouchableOpacity
         style = {defaultStylesheet.buttonSubtitleView}>
-          <Text style = {stylesheet.buttonSubtitleText}>
+          <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>
             MANUAL DOS
           </Text>
-          <Text style = {stylesheet.buttonSubtitleText}>
+          <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>
             PADRINHOS
           </Text>
         </TouchableOpacity>

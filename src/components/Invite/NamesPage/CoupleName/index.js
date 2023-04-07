@@ -5,7 +5,7 @@ export default function Main(){
 
   return(
       <View style={stylesheet.content}>
-        <Text style={stylesheet.names}>Bianca & Breno</Text>
+        <Text style={stylesheet.names} allowFontScaling={false}>Bianca & Breno</Text>
       </View>
   )
 }

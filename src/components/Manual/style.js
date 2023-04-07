@@ -1,15 +1,18 @@
-import {Dimensions, StyleSheet, Platform} from 'react-native';
+import {Dimensions, StyleSheet, Platform, StatusBar} from 'react-native';
 import {normalize} from '../../widgets/Fonts/Normalize';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+
 const isIos = (Platform.OS === 'ios');
+
+const statusBarHeight = getStatusBarHeight();
 
 const stylesheet = StyleSheet.create({
   content: {
     justifyContent: "center",
     alignItems: "center",
     width: Dimensions.get('screen').width,
-    height: Dimensions.get('screen').height,
+    height: Dimensions.get('window').height+statusBarHeight,
     marginRight:100,
-    marginTop:  isIos? normalize(0): normalize(0),
   },
   
   topFlower: {
@@ -28,7 +31,7 @@ const stylesheet = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     width:Dimensions.get('screen').width - normalize(40),
-    height: Dimensions.get('screen').height - normalize(140),
+    height: Dimensions.get('screen').height - normalize(130),
     borderColor:'#C68420',
     borderWidth:  isIos? normalize(4): normalize(6),
   },
@@ -36,7 +39,7 @@ const stylesheet = StyleSheet.create({
   bottomFlower: {
     position:'absolute',
     zIndex:1,
-    bottom: isIos? normalize(-120): normalize(-100),
+    bottom: isIos? normalize(-120): normalize(-130),
     right: isIos? normalize(-100): normalize(-100),
     width: normalize(336),
     height: normalize(360),

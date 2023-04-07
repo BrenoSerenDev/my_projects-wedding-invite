@@ -7,9 +7,9 @@ export default function Main(){
       <View style={stylesheet.content}>
         <View style={stylesheet.textContent}>
           <View style={stylesheet.dateView}>
-            <Text style={stylesheet.date02Text}>02</Text>
-            <Text style={stylesheet.dateDezText}>DEZ</Text>
-            <Text style={stylesheet.date2023Text}>2023</Text>
+            <Text style={stylesheet.date02Text } allowFontScaling={false}>02</Text>
+            <Text style={stylesheet.dateDezText} allowFontScaling={false}>DEZ</Text>
+            <Text style={stylesheet.date2023Text} allowFontScaling={false}>2023</Text>
           </View>
         
 
@@ -17,10 +17,10 @@ export default function Main(){
 
           </View>
           <View style={stylesheet.hourView}>
-            <Text style={stylesheet.hourSabadoText}>
+            <Text style={stylesheet.hourSabadoText} allowFontScaling={false}>
               SÁBADO
             </Text>
-            <Text style={stylesheet.hourText}>
+            <Text style={stylesheet.hourText} allowFontScaling={false}>
               16h30min
             </Text>
           </View>

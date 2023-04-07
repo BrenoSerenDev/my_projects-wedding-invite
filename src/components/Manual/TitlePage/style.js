@@ -7,6 +7,7 @@ const stylesheet = StyleSheet.create({
     fontFamily:'Daydream',
     color:'#C68420',
     textAlign:'center',
+    
   },
   topText: {
     fontSize:isIos ? normalize(90) :normalize(100),

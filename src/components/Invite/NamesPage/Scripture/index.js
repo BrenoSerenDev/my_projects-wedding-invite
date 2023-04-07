@@ -5,10 +5,10 @@ export default function Main(){
 
   return(
       <View style={stylesheet.content}>
-        <Text style={stylesheet.scripture}>
+        <Text style={stylesheet.scripture} allowFontScaling={false}>
         " Agora, permanecem a fé, a esperança e o amor. Porém o maior destes é o amor. "
         </Text>
-        <Text style={stylesheet.scriptureComment}>
+        <Text style={stylesheet.scriptureComment} allowFontScaling={false}>
         1 Coríntios 13:13
         </Text>
       </View>

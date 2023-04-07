@@ -5,7 +5,7 @@ const stylesheet = StyleSheet.create({
   content: {
     flex:2,
     width: '100%',
-    alignItems: "center",
+    alignItems: "center"
   },
   topPhraseContent: {
     flex:1,
@@ -16,6 +16,7 @@ const stylesheet = StyleSheet.create({
     color:'#c68420',
     fontFamily:'OpenSans-Light',
     fontSize:normalize(18),
+    
   },
   parentsNamesView: {
     flex:1,

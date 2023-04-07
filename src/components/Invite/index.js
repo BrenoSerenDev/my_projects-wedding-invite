@@ -15,7 +15,7 @@ export default function Main({navigation}){
         style={stylesheet.content}
         fullScreen={true}
         >
-            <StatusBar translucent={true} backgroundColor={'transparent'}/>
+            <StatusBar barStyle='dark-content' translucent={true} backgroundColor={'transparent'}/>
             <LogoPage/>
             <NamesPage/>
             <ButtonsPage NavigationData = {navigation}/>

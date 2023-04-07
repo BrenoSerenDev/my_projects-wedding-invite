@@ -7,7 +7,7 @@ export default function Title(){
   
   return(
       <View style = {stylesheet.content}>
-          <Text style = {defaultStylesheet.bottomText}>
+          <Text style = {defaultStylesheet.bottomText} allowFontScaling={false}>
             TOQUE PARA INTERAGIR !
           </Text>
         

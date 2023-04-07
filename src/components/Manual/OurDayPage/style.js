@@ -6,7 +6,8 @@ const stylesheet = StyleSheet.create({
     color:'#C68420',
     textAlign:'center',
     fontSize:normalize(70),
-    marginBottom:normalize(30)
+    marginBottom:normalize(30),
+
   },
   calendar: {
     width: normalize(320)
@@ -16,7 +17,7 @@ const stylesheet = StyleSheet.create({
     color:'#C68420',
     textAlign:'center',
     fontSize: normalize(20),
-    marginBottom:normalize(40)
+    marginBottom:normalize(40),
   },
   calendarFirstRow: {
     flexDirection:'row',
@@ -26,7 +27,7 @@ const stylesheet = StyleSheet.create({
     fontFamily:'Gracialind-Bold',
     color:'#C68420',
     textAlign:'center',
-    fontSize: normalize(20)
+    fontSize: normalize(20),
   },
   calendarRow: {
     flexDirection:'row',
@@ -40,7 +41,7 @@ const stylesheet = StyleSheet.create({
     textAlign: 'center',
     fontFamily:'Gracialind',
     color:'#C68420',
-    fontSize: normalize(20)
+    fontSize: normalize(20),
   },
   heartDay: {
     width:normalize(33),
