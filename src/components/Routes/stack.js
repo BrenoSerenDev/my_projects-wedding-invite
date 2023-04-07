@@ -10,7 +10,6 @@ export default function Stack (){
 	return (
         <StackNavigator.Navigator initialRouteName = "Invite" screenOptions={{
     headerShown: false,
-    safeAreaInsets: { top: 0, bottom: 0 },
   }}>
           <StackNavigator.Screen 
                 name='Invite' 

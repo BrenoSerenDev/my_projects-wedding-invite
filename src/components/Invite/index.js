@@ -1,4 +1,4 @@
-import {StyleSheet, Dimensions,View} from 'react-native';
+import {StyleSheet, Dimensions,View, StatusBar} from 'react-native';
 import Animated from 'react-native-reanimated';
 
 import LogoPage from './LogoPage'
@@ -13,7 +13,9 @@ export default function Main({navigation}){
         showsVerticalScrollIndicator={false}
         removeClippedSubviews={true}
         style={stylesheet.content}
+        fullScreen={true}
         >
+            <StatusBar translucent={true} backgroundColor={'transparent'}/>
             <LogoPage/>
             <NamesPage/>
             <ButtonsPage NavigationData = {navigation}/>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { NavigationContainer, StatusBar } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import Stack from './src/components/Routes/stack';
 import { useFonts } from 'expo-font';
 
@@ -19,8 +19,7 @@ const [fontsLoaded] = useFonts({
   }
   
   return (
-    <NavigationContainer fullScreen={true}>
-      <StatusBar hidden={true} />
+    <NavigationContainer>
       <Stack/>
     </NavigationContainer>
   );
