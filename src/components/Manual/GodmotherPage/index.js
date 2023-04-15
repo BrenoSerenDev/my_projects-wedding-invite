@@ -9,23 +9,14 @@ export default function Main(){
       <View style={main_stylesheet.content}>
         <View style={main_stylesheet.frame}>
           <View style={stylesheet.instructions}>
-          <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para a Madrinha</Text>
-            <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Queremos que você  se sinta linda, por isso, sugerimos para esse dia tão especial, um <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>vestido longo, sem brilho</Text>, com o tecido que desejar, <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>dentro da paleta de cores abaixo.</Text></Text>
+          <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para a Avó</Text>
+            <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Queremos que você  se sinta linda, por isso, sugerimos para esse dia tão especial, um <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>vestido longo, sem brilho</Text>, com o tecido que desejar, <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>na cor marsala.</Text></Text>
           </View>
           <View style={stylesheet.colorPallete}>
-            <Text allowFontScaling={false}  style={stylesheet.colorsTitleText}>Madrinhas de Rosa</Text>
+            <Text allowFontScaling={false}  style={stylesheet.colorsTitleText}>Avós de Marsala</Text>
             <View style ={stylesheet.colorBoxBorder1}>
               <View style={stylesheet.colorBoxBorder2}>
-
-                <View style={stylesheet.colorBoxColor1}>
-                </View>
-                <View style={stylesheet.colorBoxColor2}>
-                </View>
-                <View style={stylesheet.colorBoxColor3}>
-                </View>
-                <View style={stylesheet.colorBoxColor4}>
-                </View>
-                <View style={stylesheet.colorBoxColor5}>
+                <View style={stylesheet.colorBoxColor}>
                 </View>
               </View>
             </View>

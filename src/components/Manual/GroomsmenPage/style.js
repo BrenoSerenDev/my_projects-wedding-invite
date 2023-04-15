@@ -45,34 +45,8 @@ const stylesheet = StyleSheet.create({
   colorBoxColor1: {
     flex:1,
     backgroundColor:'#9b999a',
-    margin:10
+    margin:normalize(10)
   },
-  colorBoxColor2: {
-    flex:1,
-    backgroundColor:'#E4A8B4',
-    marginVertical:normalize(10),
-    marginHorizontal:normalize(5)
-  },
-  colorBoxColor3: {
-    flex:1,
-    backgroundColor:'#D28B91',
-    marginVertical:normalize(10),
-    marginHorizontal:normalize(5)
-  },
-  colorBoxColor4: {
-    flex:1,
-    backgroundColor:'#ED9AA2',
-    marginVertical:normalize(10),
-    marginHorizontal:normalize(5)
-  },
-  colorBoxColor5: {
-    flex:1,
-    backgroundColor:'#E37784',
-    marginVertical:normalize(10),
-    marginLeft:normalize(5),
-    marginRight: normalize(10)
-  },
-  
 });
 
 export default stylesheet;

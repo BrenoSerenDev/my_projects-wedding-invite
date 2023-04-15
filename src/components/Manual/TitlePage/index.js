@@ -18,9 +18,8 @@ export default function Main(){
           <Text style={stylesheet.manualTitle} allowFontScaling={false}>
             <Text style={stylesheet.topText} {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Manual{'\n'}</Text>
             <Text style={stylesheet.middleText} {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>dos{'\n'}</Text>
-            <Text style={stylesheet.bottomText}  {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Padrinhos</Text>
+            <Text style={stylesheet.bottomText}  {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Avós</Text>
           </Text>
-          <Text>O conteúdo do seu aplicativo {true == 'Android OS' ? 'está' : 'não está'} limitado à janela do dispositivo.</Text>
         </View>
           
         <Image
