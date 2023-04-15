@@ -12,7 +12,7 @@ const stylesheet = StyleSheet.create({
     alignItems: "center",
     width: Dimensions.get('screen').width,
     height: Dimensions.get('window').height+statusBarHeight,
-    marginRight:100,
+    marginRight:normalize(100),
   },
   
   topFlower: {
