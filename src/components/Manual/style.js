@@ -3,7 +3,6 @@ import {normalize} from '../../widgets/Fonts/Normalize';
 import { getStatusBarHeight } from 'react-native-status-bar-height';
 
 const isIos = (Platform.OS === 'ios');
-
 const statusBarHeight = getStatusBarHeight();
 
 const stylesheet = StyleSheet.create({

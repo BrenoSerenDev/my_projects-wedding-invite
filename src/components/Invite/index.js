@@ -1,13 +1,11 @@
-import {StyleSheet, Dimensions,View, StatusBar} from 'react-native';
+import {StyleSheet, Dimensions, View, StatusBar, Text} from 'react-native';
 import Animated from 'react-native-reanimated';
-
 import LogoPage from './LogoPage'
 import NamesPage from './NamesPage'
 import ButtonsPage from './ButtonsPage'
 
 
 export default function Main({navigation}){
-
   return(
         <Animated.ScrollView 
         showsVerticalScrollIndicator={false}

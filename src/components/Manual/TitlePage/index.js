@@ -2,9 +2,16 @@ import React from 'react';
 import {View, Text, Image, Platform} from 'react-native';
 import stylesheet from './style';
 import main_stylesheet from '../style';
+import { Device } from 'expo-device';
+
+
+
+
+
 const isIos = (Platform.OS === 'ios');
 
 export default function Main(){
+  
   return(
       <View style={main_stylesheet.content}>
         <View style={main_stylesheet.frame}>
@@ -13,8 +20,9 @@ export default function Main(){
             <Text style={stylesheet.middleText} {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>dos{'\n'}</Text>
             <Text style={stylesheet.bottomText}  {... isIos ?numberOfLines=1:null}{... isIos ?adjustsFontSizeToFit = true:null}>Padrinhos</Text>
           </Text>
+          <Text>O conteúdo do seu aplicativo {true == 'Android OS' ? 'está' : 'não está'} limitado à janela do dispositivo.</Text>
         </View>
-        
+          
         <Image
           style = {main_stylesheet.topFlower}
           source = {require('../../../../assets/img/manual/border-flower.png')}
