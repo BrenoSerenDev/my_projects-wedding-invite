@@ -1,9 +1,9 @@
 {
-  "expoServerPort": 19000,
+  "expoServerPort": null,
   "packagerPort": 19000,
   "expoServerNgrokUrl": "https://4m-4vp.brenoseren.my-projects-wedding-invite.exp.direct",
   "packagerNgrokUrl": "https://4m-4vp.brenoseren.my-projects-wedding-invite.exp.direct",
-  "ngrokPid": 8161,
+  "ngrokPid": 24046,
   "packagerPid": null,
   "webpackServerPort": null
 }
