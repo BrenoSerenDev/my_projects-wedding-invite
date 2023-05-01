@@ -9,11 +9,11 @@ export default function Main(){
       <View style={main_stylesheet.content}>
         <View style={main_stylesheet.frame}>
           <View style={stylesheet.instructions}>
-          <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para a Madrinha</Text>
+          <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para a Demoiselle</Text>
             <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Queremos que você  se sinta linda, por isso, sugerimos para esse dia tão especial, um <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>vestido longo, sem brilho</Text>, com o tecido que desejar, <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>dentro da paleta de cores abaixo.</Text></Text>
           </View>
           <View style={stylesheet.colorPallete}>
-            <Text allowFontScaling={false}  style={stylesheet.colorsTitleText}>Madrinhas de Rosa</Text>
+            <Text allowFontScaling={false}  style={stylesheet.colorsTitleText}>Demoiselles de Rosa</Text>
             <View style ={stylesheet.colorBoxBorder1}>
               <View style={stylesheet.colorBoxBorder2}>
 

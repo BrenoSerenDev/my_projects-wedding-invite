@@ -3,7 +3,6 @@ import {StyleSheet, Dimensions, Animated, StatusBar} from 'react-native';
 import TitlePage from './TitlePage'
 import OurDayPage from './OurDayPage'
 import GodmotherPage from './GodmotherPage'
-import GroomsmenPage from './GroomsmenPage'
 import GreatDayPage from './GreatDayPage'
 import normalize from '../../widgets/Fonts/Normalize';
 
@@ -20,7 +19,6 @@ export default function Main(){
             <TitlePage />
             <OurDayPage />
             <GodmotherPage />
-            <GroomsmenPage />
             <GreatDayPage />
         </Animated.ScrollView>
   )
