@@ -1,4 +1,5 @@
 import {StyleSheet, Dimensions} from 'react-native';
+import React, {useState} from 'react';
 import {normalize} from '../../../widgets/Fonts/Normalize';
 
 const stylesheet = StyleSheet.create({
