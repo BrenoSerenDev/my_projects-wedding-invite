@@ -19,6 +19,8 @@ export default function Main(){
 
                 <View style={stylesheet.colorBoxColor1}>
                 </View>
+                <View style={stylesheet.colorBoxColor2}>
+                </View>
             
               </View>
             </View>

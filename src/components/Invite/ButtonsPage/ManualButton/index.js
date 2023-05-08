@@ -18,7 +18,7 @@ export default function Title(props){
             MANUAL DOS
           </Text>
           <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>
-            PADRINHOS
+            PAIS
           </Text>
         </TouchableOpacity>
       </View>

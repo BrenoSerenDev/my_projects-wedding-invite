@@ -10,7 +10,7 @@ export default function Main(){
         <View style={main_stylesheet.frame}>
           <View style={stylesheet.instructions}>
           <Text allowFontScaling={false}  style={stylesheet.TitleText}>Para o Pai</Text>
-            <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Para que nosso dia fique ainda mais lindo e você mais elegante, escolhemos padronizar os trajes dos padrinhos.
+            <Text allowFontScaling={false}  style={stylesheet.instructionsText}>Para que nosso dia fique ainda mais lindo e você mais elegante, escolhemos padronizar os trajes dos pais.
 Portanto, gostaríamos que você usasse <Text allowFontScaling={false}  style={{fontFamily:'Gracialind-Bold'}}>camisa branca, terno cinza e a gravata no mesmo tom do vestido da mãe.</Text></Text>
           </View>
           <View style={stylesheet.colorPallete}>
