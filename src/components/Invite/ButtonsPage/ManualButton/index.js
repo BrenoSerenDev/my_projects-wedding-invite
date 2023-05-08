@@ -18,7 +18,11 @@ export default function Title(props){
             MANUAL DOS
           </Text>
           <Text style = {stylesheet.buttonSubtitleText} allowFontScaling={false}>
+<<<<<<< HEAD
             AVÓS
+=======
+            PAIS
+>>>>>>> origin/dad-mom-invite
           </Text>
         </TouchableOpacity>
       </View>

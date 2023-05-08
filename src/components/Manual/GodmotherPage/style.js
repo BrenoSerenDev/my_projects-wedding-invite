@@ -31,7 +31,7 @@ const stylesheet = StyleSheet.create({
     fontSize:normalize(40),
   },
   colorBoxBorder1: {
-    width:normalize(90),
+    width:normalize(160),
     height:normalize(90),
     borderColor:'white',
     borderWidth:normalize(5),
@@ -40,12 +40,23 @@ const stylesheet = StyleSheet.create({
     flex:1,
     backgroundColor:'white',
     margin:normalize(10),
+    
     flexDirection:'row'
   },
   colorBoxColor: {
     flex:1,
-    backgroundColor:'#830a25',
-    margin:normalize(10)
+    backgroundColor:'#6f1c36',
+    marginVertical: normalize(10),
+    marginLeft: normalize(10),
+    marginRight: normalize(5)
+  },
+
+  colorBoxColor2: {
+    flex:1,
+    backgroundColor:'#610220',
+    marginVertical: normalize(10),
+    marginLeft: normalize(5),
+    marginRight: normalize(10)
   },
 });
 
