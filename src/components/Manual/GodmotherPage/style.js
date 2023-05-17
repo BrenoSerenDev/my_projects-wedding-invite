@@ -31,7 +31,7 @@ const stylesheet = StyleSheet.create({
     fontSize:normalize(40),
   },
   colorBoxBorder1: {
-    width:normalize(160),
+    width:normalize(145),
     height:normalize(90),
     borderColor:'white',
     borderWidth:normalize(5),
